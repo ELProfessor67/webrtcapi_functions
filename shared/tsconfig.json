@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "outDir": "../dist/shared",
+    "rootDir": "./",
+    "baseUrl": ".",
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "types": ["node"],
+    "declaration": true,
+    "composite": true,
+    "paths": {
+      "@shared/*": ["./*"],
+      "@frontend/*": ["../frontend/*"]
+    }
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules"]
+}

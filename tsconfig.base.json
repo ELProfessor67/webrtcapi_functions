@@ -1,0 +1,27 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./shared"
+    },
+    {
+      "path": "./backend"
+    },
+    {
+      "path": "./tasks"
+    },
+    {
+      "path": "./frontend"
+    }
+  ],
+  "compilerOptions": {
+    "rootDir": ".",
+    "baseUrl": ".",
+    "paths": {
+      "@shared/*": ["shared/*"],
+      "@backend/*": ["backend/*"],
+      "@tasks/*": ["tasks/*"],
+      "@frontend/*": ["frontend/*"]
+    }
+  }
+}

@@ -1,0 +1,61 @@
+<svg width="788" height="80" viewBox="0 0 788 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+<style>
+
+    .setting
+    {
+        stroke: black;
+        transition: all .3s;
+    }
+
+    .setting:hover{
+        stroke: red;
+    }
+
+  @keyframes blink {
+    0% {
+      transform: translate(0%, 0%) scale(1);
+      opacity: 0.8;
+    }
+    100% {
+      transform: translate(0%, 0%) scale(1);
+      opacity: 0;
+   }
+  }
+
+  .blinking {
+    animation: blink  1.5s infinite;
+    cursor: pointer;
+  }
+</style>
+
+  <rect width="788" height="57" fill="#F0F0F4" cy="20"/>
+  
+  <!-- Rest of the SVG -->
+  <path d="M152 16C152 11.5817 155.582 8 160 8H628C632.418 8 636 11.5817 636 16V41C636 45.4183 632.418 49 628 49H160C155.582 49 152 45.4183 152 41V16Z" fill="white"/>
+  <path d="M36 39L26 29L36 19" stroke="#0E0E0E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M68 19L78 29L68 39" stroke="#0E0E0E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M118.021 25.4648H124.021V19.4648" stroke="#0E0E0E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M119.778 36.7782C118.24 38.3166 116.28 39.3642 114.146 39.7886C112.012 40.2131 109.8 39.9952 107.79 39.1627C105.78 38.3301 104.063 36.9202 102.854 35.1113C101.645 33.3023 101 31.1756 101 29C101 26.8244 101.645 24.6977 102.854 22.8887C104.063 21.0798 105.78 19.6699 107.79 18.8373C109.8 18.0048 112.012 17.7869 114.146 18.2114C116.28 18.6358 118.24 19.6835 119.778 21.2218L124.021 25.4645" stroke="#0E0E0E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  
+    <g class="setting">
+        <path d="M173 34H182"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M190 37C191.657 37 193 35.6569 193 34C193 32.3431 191.657 31 190 31C188.343 31 187 32.3431 187 34C187 35.6569 188.343 37 190 37Z"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M175 27C176.657 27 178 25.6569 178 24C178 22.3431 176.657 21 175 21C173.343 21 172 22.3431 172 24C172 25.6569 173.343 27 175 27Z"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M182 24H191"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+
+
+  <!-- Light Red Blinking Circle -->
+  <circle cx="180" cy="28" r="28" fill="#E30C40" class="blinking"/>
+
+
+  <!-- cursor  -->
+   <g transform="translate(190, 35)" > <!-- Adjust the position as needed -->
+    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+      <path d="M4.77266 6.06011L12.0494 25.4648C12.1212 25.6562 12.2499 25.821 12.4182 25.937C12.5865 26.0531 12.7863 26.1147 12.9907 26.1137C13.1952 26.1127 13.3944 26.049 13.5615 25.9313C13.7286 25.8136 13.8557 25.6476 13.9255 25.4554L16.8407 17.4388C16.8906 17.3014 16.9701 17.1767 17.0734 17.0734C17.1767 16.9701 17.3014 16.8906 17.4387 16.8407L25.4554 13.9255C25.6475 13.8557 25.8136 13.7286 25.9313 13.5615C26.049 13.3944 26.1127 13.1952 26.1137 12.9908C26.1147 12.7863 26.0531 12.5865 25.937 12.4182C25.821 12.2499 25.6562 12.1212 25.4648 12.0494L6.06011 4.77266C5.88033 4.70524 5.68494 4.691 5.49728 4.73165C5.30963 4.7723 5.13765 4.86611 5.00188 5.00188C4.86611 5.13765 4.7723 5.30963 4.73165 5.49728C4.691 5.68494 4.70524 5.88033 4.77266 6.06011Z" fill="white" stroke="#0E0E0E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M17.0742 17.0723L26.001 25.9991" stroke="#0E0E0E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </g>
+  
+</svg>

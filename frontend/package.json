@@ -1,0 +1,36 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@tensorflow-models/body-segmentation": "^1.0.2",
+    "@tensorflow/tfjs-backend-webgl": "^4.21.0",
+    "@tensorflow/tfjs-core": "^4.21.0",
+    "mediasoup-client": "^3.7.16",
+    "next": "14.2.8",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^5.3.0",
+    "react-scroll-to-bottom": "^4.2.0",
+    "socket.io-client": "^4.7.5",
+    "swiper": "^11.1.14",
+    "typewriter-effect": "^2.21.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/react-scroll-to-bottom": "^4.2.5",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.8",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
